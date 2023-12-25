@@ -342,3 +342,34 @@ h3{
         font-size: 24px;
     }
 }
+
+/* ----------------Footer----------------- */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o{
+    color: #f44336;
+}
