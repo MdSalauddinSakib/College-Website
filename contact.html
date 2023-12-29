@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangpur Model College</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6004dd6d46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- --------------Header---------------------- -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+
+<!-- ----------------------Footer------------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque aperiam, doloribus dolorem accusantium accusamus sed mollitia ducimus <br> tempore nobis magni in nesciunt explicabo vero ipsa cumque incidunt amet voluptates. Reprehenderit?</p>
+        <div class="icons">
+            <i class="fa fa-solid fa-facebook"></i>
+            <i class="fa fa-solid fa-twitter"></i>
+            <i class="fa fa-solid fa-instagram"></i>
+            <i class="fa fa-solid fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-solid fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+
+    <!-- javaScript for toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+
+</body>
+
+</html>
